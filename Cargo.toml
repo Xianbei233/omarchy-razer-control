@@ -1,0 +1,18 @@
+[package]
+name = "omarchy-razer-control"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Serialized user-space Razer Blade HID control for Omarchy Quickshell"
+
+[dependencies]
+libc = "0.2"
+serde_json = "1"
+
+[[bin]]
+name = "omarchy-razer-control"
+path = "src/main.rs"
+
+[profile.release]
+lto = true
+strip = true

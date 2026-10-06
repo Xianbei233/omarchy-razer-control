@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "xianbei233.razer-control",
+  "name": "Razer Control",
+  "version": "1.0.0",
+  "author": "xianbei233",
+  "description": "Razer Blade 风扇、性能与灯光控制",
+  "kinds": ["bar-widget"],
+  "activation": "on-demand",
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Razer Control",
+    "description": "风扇、CPU / GPU 性能、Logo 与键盘灯光",
+    "category": "Hardware",
+    "allowMultiple": false
+  }
+}

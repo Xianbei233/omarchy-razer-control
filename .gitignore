@@ -1,0 +1,6 @@
+/target/
+*.tmp
+/settings*.json
+/diag-sessions/
+/plugin-backups/
+*.log

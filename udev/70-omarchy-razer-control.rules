@@ -1,0 +1,2 @@
+# Optional access rule for the active local user and only Blade 14 2021.
+ACTION=="add|change", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="0270", TAG+="uaccess"
